@@ -1,4 +1,4 @@
-const AnimeList = ({anime,title, handleDelete}) => {
+const AnimeList = ({anime,title}) => {
 
   return (
     <div className="animeList">
@@ -7,7 +7,7 @@ const AnimeList = ({anime,title, handleDelete}) => {
         <div className="animePreview" key={anime.id}>
           <h2>{anime.title}</h2>
           <p>Number of Episodes = {anime.episodes}</p>
-          <button onClick={()=>handleDelete(anime.id)}>Delete Anime</button>
+          
         </div>
       ))}
     </div>
