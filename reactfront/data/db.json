@@ -1,26 +1,25 @@
 {
-    "anime": [
-        {
-            "title": "Death Note",
-            "description": "temp1",
-            "episodes": 37,
-            "released": 2007,
-            "id": 1
-        },
-        {
-            "title": "Naruto",
-            "description": "temp2",
-            "episodes": 720,
-            "released": 2002,
-            "id": 2
-        },
-        {
-            "title": "Bleach",
-            "description": "temp3",
-            "episodes": 366,
-            "released": 2005,
-            "id": 3
-        }
-
-    ]
+  "anime": [
+    {
+      "title": "Death Note",
+      "description": "temp1",
+      "episodes": 37,
+      "released": 2007,
+      "id": "1"
+    },
+    {
+      "title": "Naruto",
+      "description": "temp2",
+      "episodes": 720,
+      "released": 2002,
+      "id": "2"
+    },
+    {
+      "title": "Bleach",
+      "description": "temp3",
+      "episodes": 366,
+      "released": 2005,
+      "id": "3"
+    }
+  ]
 }
